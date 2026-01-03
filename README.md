@@ -76,12 +76,12 @@ services:
 在青龙面板中添加定时任务，执行以下命令：
 
 ```bash
-/bin/bash /ql/custom/backup-to-github.sh
+/bin/bash /ql/custom/backup.sh
 ```
 
 **建议定时规则**: `0 3 * * *` (每天凌晨 2 点执行)
 
-<img width="396" height="319" alt="青龙面板定时任务配置" src="https://github.com/user-attachments/assets/46ea17c7-4e92-4d37-a860-1cc50e875ce2" />
+<img width="820" height="563" alt="青龙面板定时任务配置" src="https://github.com/user-attachments/assets/b19dcd1c-324d-4a22-9efa-dd79f88295d5" />
 
 ## 📖 使用说明
 
