@@ -1,4 +1,4 @@
-FROM whyour/qinglong:latest
+FROM whyour/qinglong:2.17.11
 
 # 安装 cron 服务用于定时备份（Alpine Linux 使用 apk）
 RUN apk add --no-cache dcron
